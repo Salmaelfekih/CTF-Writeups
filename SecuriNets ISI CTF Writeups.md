@@ -71,7 +71,7 @@ Securinets{49.016/2.559}
 
 >This image was attached to the task :
 
-<img src="Images/6.png">
+<img src="Images/6.jpg">
 
 The first reflex in this type of challenge is to reverse this image using a reverse image engine like [**Google image search**](https://images.google.com), for example.
 
@@ -316,6 +316,7 @@ The image above shows the content in a file named Flag, which contained an unrea
 Now we've got the flag! 
 
 Securinets{Y0u_ar3_g00d_in_m3t4d4t4}
+
 
 
 
