@@ -21,12 +21,12 @@ Mariano, a Spanish Olympic athlete, is debuting in Paris this year. He flew from
 
 >This image was attached to the task :
 
-<img src="Images/1.png" width="400" height="400">
+<img src="Images/1.png">
 
 ### Solution
 Examining the provided image, it shows a boarding pass with a barcode that needs to be analysed.To do this, we went to [**OSINT Framework**](https://osintframework.com) to find an online barcode decoder as detailed in the following screenshots :
 
- <img src="Images/2.png" width="400" height="400">
+ <img src="Images/2.png">
 
  <img src="Images/3.png" width="400" height="400">
 
@@ -316,4 +316,5 @@ The image above shows the content in a file named Flag, which contained an unrea
 Now we've got the flag! 
 
 Securinets{Y0u_ar3_g00d_in_m3t4d4t4}
+
 
