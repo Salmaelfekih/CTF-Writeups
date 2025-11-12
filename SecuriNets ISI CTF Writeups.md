@@ -301,7 +301,7 @@ Running that command-line on our terminal, we got this information.
 
 >This image was attached to the task :
 
-<img src="Images/30.png">
+<img src="Images/30.jpg">
 
 ### Solution
 Examining the provided image, we noticed the meta logo. the first hint that came to mind was to analyze the image metadata using ExifTool, which we ran on the Linux terminal. This provided us with valuable information, including a link to a pastebin post, as detailed more on the given screenshot :
@@ -323,6 +323,7 @@ The image above shows the content in a file named Flag, which contained an unrea
 Now we've got the flag! 
 
 Securinets{Y0u_ar3_g00d_in_m3t4d4t4}
+
 
 
 
