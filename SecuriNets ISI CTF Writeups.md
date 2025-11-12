@@ -28,11 +28,11 @@ Examining the provided image, it shows a boarding pass with a barcode that needs
 
  <img src="Images/2.png">
 
- <img src="Images/3.png" width="400" height="400">
+ <img src="Images/3.png">
 
  The barcode redirected us to Google Drive image, as shown in the given image :
 
-<img src="Images/4.png" width="400" height="400">
+<img src="Images/4.png">
 
 The information in the image seemed to be typed in Spanish, so we needed to translate it to English for better understanding.
 
@@ -52,7 +52,7 @@ Reading this information, we understood that the luggage consisted of two suitca
 MNC: 10 LAC / TAC: 49217. These pieces of information (MCC, MNC, LAC/TAC, and CID) are directly related to a cell phone’s network connection, that can lead us to the exact location of the missing suitcase.
 Using [OpenCellID](https://opencellid.org), the world's largest Open Database of Cell Towers, we finally identified the exact location of the suitcase as detailed in the following screenshot :
 
-<img src="Images/5.png" width="400" height="400">
+<img src="Images/5.png">
 
 and finally, we got the flag! 
 
@@ -71,16 +71,16 @@ Securinets{49.016/2.559}
 
 >This image was attached to the task :
 
-<img src="Images/6.png" width="400" height="400">
+<img src="Images/6.png">
 
 The first reflex in this type of challenge is to reverse this image using a reverse image engine like [**Google image search**](https://images.google.com), for example.
 
-<img src="Images/7.png" width="400" height="400">
+<img src="Images/7.png">
 
 When we looked at the article, we found out that the attached image is the image of Zeus' horse designed by Atelier Blam
 Going to Atelier Blam's official website, we discovered that mr Aurelien Meyer is the founder of the studio, and we got the flag!
 
-<img src="Images/8.png" width="400" height="400">
+<img src="Images/8.png">
 
 and finally, we got the flag! 
 
@@ -97,17 +97,17 @@ Securinets{aurelien_meyer}
 
 >This image was attached to the task :
 
-<img src="Images/9.png" width="400" height="400">
+<img src="Images/9.png">
 
 ### Solution
 We used [**Google image search**](https://images.google.com) to reverse the attached image, and we got the name of the satellite, which was Kafasat. The result is detailed in the screenshot below :
 
-<img src="Images/10.png" width="400" height="400">
+<img src="Images/10.png">
 
 Having the name of the satellite we need now, an open source satellite database, we did some research and we found [**satnogs**](https://satnogs.org), a free software and open source hardware platform aimed to create a satellite ground station network.
 Searching satnogs, we found the satellite ID that we are looking for, as detailed in the screenshot below :
 
-<img src="Images/11.png" width="400" height="400">
+<img src="Images/11.png">
 
 and finally, we got the flag! 
 
@@ -133,21 +133,21 @@ Securinets{APQS-1800-5981-4551-3856}
 Examining the audio provided. It seemed to be Morse code encoded that needs to be decoded.
 we looked for an online Morse code audio decoder and used [morsecode.world](https://morsecode.world), which gave the following message as detailed in the screenshot below :
 
-<img src="Images/12.png" width="400" height="400">
+<img src="Images/12.png">
 
 Considering the message that we got, we visited the hacker’s X profile. While going through the account, we discovered an interesting post which was his personal CV which revealed the hacker’s identity and redirected us to Martin’s LinkedIn profile.
 
-<img src="Images/13.png" width="400" height="400">
+<img src="Images/13.png">
 
 Analyzing the LinkedIn profile, particularly the contact info section, we got Martin's personal email.
 
-<img src="Images/14.png" width="400" height="400">
+<img src="Images/14.png">
 
 Having the email address of Martin allowed us to uncover additional information about the hacker using [**Epieos**](https://epieos.com), an OSINT search engine that allows you to perform an email or phone reverse lookup. Epieos provided a Google Maps link, with the result shown in the screenshot below:
 
-<img src="Images/15.png" width="400" height="400">
+<img src="Images/15.png">
 
-<img src="Images/16.png" width="400" height="400">
+<img src="Images/16.png">
 
 Following that link, we finally got the location of the hacker and obtained the flag!
 
@@ -165,11 +165,11 @@ Securinets{AMSTERDAM}
 ### Solution
 The task gave us the flight number, but we need to determine the plane type to discover its delivery date. A popular resource that crossed the mind was [Flightradar24](https://www.flightradar24.com), a live flight tracker that shows air traffic in real time. Consulting Flightradar24 revealed the aircraft type as Boeing 737-832, as detailed in the given screenshot :
 
-<img src="Images/17.png" width="400" height="400">
+<img src="Images/17.png">
 
 Having this valuable information, we can now determine the exact delivery date by consulting [JetPhotos](https://www.jetphotos.com) as shown in the image below:
 
-<img src="Images/18.png" width="400" height="400">
+<img src="Images/18.png">
 
 Now we've got the flag! 
 
@@ -204,13 +204,13 @@ Since we knew the file contained a location, we searched for a tool that could d
 
 To verify this, we used the [Movable Type geohashing](https://www.movable-type.co.uk/scripts/geohash.html) tool, which can encode latitude and longitude into a string or decode a string back into coordinates. After decoding the string, we obtained an exact location as shown in the following image:
 
-<img src="Images/19.png" width="400" height="400">
+<img src="Images/19.png">
 
 The result placed the ship near Angola and the Republic of Congo, meaning the language spoken in the audio was either French or Portuguese, as these two countries’ official languages are French and Portuguese. Since it did not sound like French, we proceeded with the assumption that it was Portuguese.  
 
 After transcribing the audio into text using [Turbo Transcriptor](https://turboscribe.ai), we obtained the following text:
 
-<img src="Images/20.png" width="400" height="400">
+<img src="Images/20.png">
 
 Next, we copied the transcribed text and translated it into English, giving the following result:
 
@@ -222,13 +222,13 @@ From this translation, we learned that the pirate captain’s name was `Mamadou7
 
 We used DCrawl, a powerful OSINT tool for username search across platforms. The results revealed an Instagram account, as shown in the screenshot below:
 
-<img src="Images/21.png" width="400" height="400">
+<img src="Images/21.png">
 
 While investigating the Instagram profile, we examined the highlights, which caught our attention:
 
-<img src="Images/22.jpg" width="400" height="400">
+<img src="Images/22.jpg">
 
-<img src="Images/23.jpg" width="400" height="400">
+<img src="Images/23.jpg">
 
 While analyzing the text in the Instagram stories, we hypothesized that a file might be embedded within the call audio file. Since steghide is a Linux tool that can extract hidden files from WAV audio files, we attempted extraction
 
@@ -236,25 +236,25 @@ However, the extraction required a passphrase.
 
 Returning to the Instagram account for further investigation, we discovered a Threads profile linked in the bio. 
 
-<img src="Images/24.jpg" width="400" height="400">
+<img src="Images/24.jpg">
 
 While examining the Threads profile, we found a post containing a promotional code, as shown in the following image:
 
-<img src="Images/25.jpg" width="400" height="400">
+<img src="Images/25.jpg">
 
 Using this code as the passphrase for steghide, we successfully extracted a new TXT file named `FLAG101` that had been embedded into the audio file.
 
-<img src="Images/26.png" width="400" height="400"> 
+<img src="Images/26.png"> 
 
 When we opened the file, we found the flag, but it was missing the last character, as shown in the screenshot below:
 
-<img src="Images/27.png" width="400" height="400">
+<img src="Images/27.png">
 
 The hint suggested that the missing character corresponded to the number of times Mamadou had changed his Instagram username.  
 
 A quick Google search led us to an article explaining how to determine the number of times a user has changed their Instagram username by consulting the About this account section on Instagram, as detailed more in the given Screenshot :
 
-<img src="Images/28.jpg" width="400" height="400">
+<img src="Images/28.jpg">
 
 Using this information, we determined the final character was `4` and finally obtained the complete flag!
 
@@ -279,7 +279,7 @@ Through our research on Google, we learned about a Linux command-line called “
 
 Running that command-line on our terminal, we got this information.
 
-<img src="Images/29.png" width="400" height="400">
+<img src="Images/29.png">
 
 ## Agent 
 ![Difficulty](https://img.shields.io/badge/Difficulty-medium-blue?style=for-the-badge)
@@ -294,27 +294,28 @@ Running that command-line on our terminal, we got this information.
 
 >This image was attached to the task :
 
-<img src="Images/30.png" width="400" height="400">
+<img src="Images/30.png">
 
 ### Solution
 Examining the provided image, we noticed the meta logo. the first hint that came to mind was to analyze the image metadata using ExifTool, which we ran on the Linux terminal. This provided us with valuable information, including a link to a pastebin post, as detailed more on the given screenshot :
 
-<img src="Images/31.png" width="400" height="400">
+<img src="Images/31.png">
 
 Following the pastebin link, it redirected us to H4ck3er_2, where a suspicious message was posted, as shown in the screenshot below:
 
-<img src="Images/32.png" width="400" height="400">
+<img src="Images/32.png">
 
 Reading the message, we understood that something had been posted, but it was now deleted. So, we need to bring it back. [Wayback Machine](https://web.archive.org/) an online internet archive that allows users to go "back in time" to see how websites looked in the past. The following screenshots show  captures of the hacker account posts from the past:
 
-<img src="Images/33.png" width="400" height="400">
+<img src="Images/33.png">
 
 The image above shows the content in a file named Flag, which contained an unreadable string. We concluded that it needed to be decoded using a popular online decoder, [dcode.fr](https://www.dcode.fr).
 
-<img src="Images/34.png" width="400" height="400">
+<img src="Images/34.png">
 
 Now we've got the flag! 
 
 Securinets{Y0u_ar3_g00d_in_m3t4d4t4}
+
 
 
