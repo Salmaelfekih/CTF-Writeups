@@ -187,11 +187,15 @@ Attached to the task are a few files that you collected as evidence for your inv
 
 >Author: S4LM4
 The following files were attached to the challenge in a ZIP file.
+
 > File 1:
 <audio controls>
   <source src="Attachments\Call.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
 > File 2:
 <object data="Attachments\L0C4TI0N.txt" type="text/plain" width="600" height="400">
+<p>The content of the file is not supported in this browser.</p>
 </object>
 
 ### Solution
@@ -316,6 +320,7 @@ The image above shows the content in a file named Flag, which contained an unrea
 Now we've got the flag! 
 
 Securinets{Y0u_ar3_g00d_in_m3t4d4t4}
+
 
 
 
