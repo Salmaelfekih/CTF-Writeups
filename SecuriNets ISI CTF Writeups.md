@@ -124,11 +124,12 @@ Securinets{APQS-1800-5981-4551-3856}
 
 >AUTHOR: S4LM4
 
->This audio was attached to the task :
+### This audio was attached to the task :
 
 <audio controls>
   <source src="Attachments\0RB1t 2.wav" type="audio/wav">
-
+  <p>The content of the file is not supported in this browser.</p>
+</audio>
 ### Solution
 Examining the audio provided. It seemed to be Morse code encoded that needs to be decoded.
 we looked for an online Morse code audio decoder and used [morsecode.world](https://morsecode.world), which gave the following message as detailed in the screenshot below :
@@ -187,13 +188,12 @@ Attached to the task are a few files that you collected as evidence for your inv
 
 >Author: S4LM4
 The following files were attached to the challenge in a ZIP file.
-
-> File 1:
+#### File 1:
 <audio controls>
   <source src="Attachments\Call.wav" type="audio/wav">
-  Your browser does not support the audio element.
+  <p>The content of the file is not supported in this browser.</p>
 </audio>
-> File 2:
+#### File 2:
 <object data="Attachments\L0C4TI0N.txt" type="text/plain" width="600" height="400">
 <p>The content of the file is not supported in this browser.</p>
 </object>
@@ -320,6 +320,7 @@ The image above shows the content in a file named Flag, which contained an unrea
 Now we've got the flag! 
 
 Securinets{Y0u_ar3_g00d_in_m3t4d4t4}
+
 
 
 
