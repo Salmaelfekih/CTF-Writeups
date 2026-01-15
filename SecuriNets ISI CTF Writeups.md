@@ -211,13 +211,13 @@ Since we knew the file contained a location, we searched for a tool that could d
 
 To verify this, we used the [Movable Type geohashing](https://www.movable-type.co.uk/scripts/geohash.html) tool, which can encode latitude and longitude into a string or decode a string back into coordinates. After decoding the string, we obtained an exact location as shown in the following image:
 
-<img src="Images/19.png">
+<img src="Images/19.png" width="400" height="400">
 
 The result placed the ship near Angola and the Republic of Congo, meaning the language spoken in the audio was either French or Portuguese, as these two countries’ official languages are French and Portuguese. Since it did not sound like French, we proceeded with the assumption that it was Portuguese.  
 
 After transcribing the audio into text using [Turbo Transcriptor](https://turboscribe.ai), we obtained the following text:
 
-<img src="Images/20.png">
+<img src="Images/20.png" width="400" height="400">
 
 Next, we copied the transcribed text and translated it into English, giving the following result:
 
@@ -229,13 +229,13 @@ From this translation, we learned that the pirate captain’s name was `Mamadou7
 
 We used DCrawl, a powerful OSINT tool for username search across platforms. The results revealed an Instagram account, as shown in the screenshot below:
 
-<img src="Images/21.png">
+<img src="Images/21.png" width="400" height="400">
 
 While investigating the Instagram profile, we examined the highlights, which caught our attention:
 
-<img src="Images/22.jpg">
+<img src="Images/22.jpg" width="400" height="400">
 
-<img src="Images/23.jpg">
+<img src="Images/23.jpg" width="400" height="400">
 
 While analyzing the text in the Instagram stories, we hypothesized that a file might be embedded within the call audio file. Since steghide is a Linux tool that can extract hidden files from WAV audio files, we attempted extraction
 
@@ -243,25 +243,25 @@ However, the extraction required a passphrase.
 
 Returning to the Instagram account for further investigation, we discovered a Threads profile linked in the bio. 
 
-<img src="Images/24.jpg">
+<img src="Images/24.jpg" width="400" height="400">
 
 While examining the Threads profile, we found a post containing a promotional code, as shown in the following image:
 
-<img src="Images/25.jpg">
+<img src="Images/25.jpg" width="400" height="400">
 
 Using this code as the passphrase for steghide, we successfully extracted a new TXT file named `FLAG101` that had been embedded into the audio file.
 
-<img src="Images/26.png"> 
+<img src="Images/26.png" width="400" height="400"> 
 
 When we opened the file, we found the flag, but it was missing the last character, as shown in the screenshot below:
 
-<img src="Images/27.png">
+<img src="Images/27.png" width="400" height="400">
 
 The hint suggested that the missing character corresponded to the number of times Mamadou had changed his Instagram username.  
 
 A quick Google search led us to an article explaining how to determine the number of times a user has changed their Instagram username by consulting the About this account section on Instagram, as detailed more in the given Screenshot :
 
-<img src="Images/28.jpg">
+<img src="Images/28.jpg" width="400" height="400">
 
 Using this information, we determined the final character was `4` and finally obtained the complete flag!
 
@@ -323,6 +323,7 @@ The image above shows the content in a file named Flag, which contained an unrea
 Now we've got the flag! 
 
 Securinets{Y0u_ar3_g00d_in_m3t4d4t4}
+
 
 
 
