@@ -243,11 +243,11 @@ However, the extraction required a passphrase.
 
 Returning to the Instagram account for further investigation, we discovered a Threads profile linked in the bio. 
 
-<img src="Images/24.jpg" width="400" height="400">
+<img src="Images/24.jpg" width="350" height="800">
 
 While examining the Threads profile, we found a post containing a promotional code, as shown in the following image:
 
-<img src="Images/25.jpg" width="400" height="400">
+<img src="Images/25.jpg" width="350" height="800">
 
 Using this code as the passphrase for steghide, we successfully extracted a new TXT file named `FLAG101` that had been embedded into the audio file.
 
@@ -255,13 +255,13 @@ Using this code as the passphrase for steghide, we successfully extracted a new 
 
 When we opened the file, we found the flag, but it was missing the last character, as shown in the screenshot below:
 
-<img src="Images/27.png" width="400" height="400">
+<img src="Images/27.png" width="350" height="800">
 
 The hint suggested that the missing character corresponded to the number of times Mamadou had changed his Instagram username.  
 
 A quick Google search led us to an article explaining how to determine the number of times a user has changed their Instagram username by consulting the About this account section on Instagram, as detailed more in the given Screenshot :
 
-<img src="Images/28.jpg" width="400" height="400">
+<img src="Images/28.jpg" width="350" height="800">
 
 Using this information, we determined the final character was `4` and finally obtained the complete flag!
 
@@ -301,20 +301,20 @@ Running that command-line on our terminal, we got this information.
 
 >This image was attached to the task :
 
-<img src="Images/30.jpg">
+<img src="Images/30.jpg" width="600" height="400">
 
 ### Solution
 Examining the provided image, we noticed the meta logo. the first hint that came to mind was to analyze the image metadata using ExifTool, which we ran on the Linux terminal. This provided us with valuable information, including a link to a pastebin post, as detailed more on the given screenshot :
 
-<img src="Images/31.png">
+<img src="Images/31.png" width="600" height="400">
 
 Following the pastebin link, it redirected us to H4ck3er_2, where a suspicious message was posted, as shown in the screenshot below:
 
-<img src="Images/32.png">
+<img src="Images/32.png" width="600" height="400">
 
 Reading the message, we understood that something had been posted, but it was now deleted. So, we need to bring it back. [Wayback Machine](https://web.archive.org/) an online internet archive that allows users to go "back in time" to see how websites looked in the past. The following screenshots show  captures of the hacker account posts from the past:
 
-<img src="Images/33.png">
+<img src="Images/33.png" width="600" height="400">
 
 The image above shows the content in a file named Flag, which contained an unreadable string. We concluded that it needed to be decoded using a popular online decoder, [dcode.fr](https://www.dcode.fr).
 
@@ -323,6 +323,7 @@ The image above shows the content in a file named Flag, which contained an unrea
 Now we've got the flag! 
 
 Securinets{Y0u_ar3_g00d_in_m3t4d4t4}
+
 
 
 
