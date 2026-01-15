@@ -135,21 +135,21 @@ Securinets{APQS-1800-5981-4551-3856}
 Examining the audio provided. It seemed to be Morse code encoded that needs to be decoded.
 we looked for an online Morse code audio decoder and used [morsecode.world](https://morsecode.world), which gave the following message as detailed in the screenshot below :
 
-<img src="Images/12.png">
+<img src="Images/12.png" width="700" height="400">
 
 Considering the message that we got, we visited the hacker’s X profile. While going through the account, we discovered an interesting post which was his personal CV which revealed the hacker’s identity and redirected us to Martin’s LinkedIn profile.
 
-<img src="Images/13.png">
+<img src="Images/13.png" width="600" height="400">
 
 Analyzing the LinkedIn profile, particularly the contact info section, we got Martin's personal email.
 
-<img src="Images/14.png">
+<img src="Images/14.png" width="600" height="500">
 
 Having the email address of Martin allowed us to uncover additional information about the hacker using [**Epieos**](https://epieos.com), an OSINT search engine that allows you to perform an email or phone reverse lookup. Epieos provided a Google Maps link, with the result shown in the screenshot below:
 
-<img src="Images/15.png">
+<img src="Images/15.png" width="600" height="400">
 
-<img src="Images/16.png">
+<img src="Images/16.png" width="600" height="400">
 
 Following that link, we finally got the location of the hacker and obtained the flag!
 
@@ -211,13 +211,13 @@ Since we knew the file contained a location, we searched for a tool that could d
 
 To verify this, we used the [Movable Type geohashing](https://www.movable-type.co.uk/scripts/geohash.html) tool, which can encode latitude and longitude into a string or decode a string back into coordinates. After decoding the string, we obtained an exact location as shown in the following image:
 
-<img src="Images/19.png" width="400" height="400">
+<img src="Images/19.png" width="800" height="800">
 
 The result placed the ship near Angola and the Republic of Congo, meaning the language spoken in the audio was either French or Portuguese, as these two countries’ official languages are French and Portuguese. Since it did not sound like French, we proceeded with the assumption that it was Portuguese.  
 
 After transcribing the audio into text using [Turbo Transcriptor](https://turboscribe.ai), we obtained the following text:
 
-<img src="Images/20.png" width="400" height="400">
+<img src="Images/20.png" width="800" height="800">
 
 Next, we copied the transcribed text and translated it into English, giving the following result:
 
@@ -229,13 +229,13 @@ From this translation, we learned that the pirate captain’s name was `Mamadou7
 
 We used DCrawl, a powerful OSINT tool for username search across platforms. The results revealed an Instagram account, as shown in the screenshot below:
 
-<img src="Images/21.png" width="400" height="400">
+<img src="Images/21.png" width="600" height="400">
 
 While investigating the Instagram profile, we examined the highlights, which caught our attention:
 
-<img src="Images/22.jpg" width="400" height="400">
+<img src="Images/22.jpg" width="350" height="800">
 
-<img src="Images/23.jpg" width="400" height="400">
+<img src="Images/23.jpg" width="350" height="800">
 
 While analyzing the text in the Instagram stories, we hypothesized that a file might be embedded within the call audio file. Since steghide is a Linux tool that can extract hidden files from WAV audio files, we attempted extraction
 
@@ -323,6 +323,7 @@ The image above shows the content in a file named Flag, which contained an unrea
 Now we've got the flag! 
 
 Securinets{Y0u_ar3_g00d_in_m3t4d4t4}
+
 
 
 
