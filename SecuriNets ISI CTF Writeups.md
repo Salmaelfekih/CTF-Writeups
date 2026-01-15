@@ -21,18 +21,18 @@ Mariano, a Spanish Olympic athlete, is debuting in Paris this year. He flew from
 
 >This image was attached to the task :
 
-<img src="Images/1.png">
+<img src="Images/1.png" width="400" height="400">
 
 ### Solution
 Examining the provided image, it shows a boarding pass with a barcode that needs to be analysed.To do this, we went to [**OSINT Framework**](https://osintframework.com) to find an online barcode decoder as detailed in the following screenshots :
 
- <img src="Images/2.png">
+ <img src="Images/2.png" width="400" height="400">
 
- <img src="Images/3.png">
+ <img src="Images/3.png" width="400" height="400">
 
  The barcode redirected us to Google Drive image, as shown in the given image :
 
-<img src="Images/4.png">
+<img src="Images/4.png" width="400" height="400">
 
 The information in the image seemed to be typed in Spanish, so we needed to translate it to English for better understanding.
 
@@ -52,7 +52,7 @@ Reading this information, we understood that the luggage consisted of two suitca
 MNC: 10 LAC / TAC: 49217. These pieces of information (MCC, MNC, LAC/TAC, and CID) are directly related to a cell phone’s network connection, that can lead us to the exact location of the missing suitcase.
 Using [OpenCellID](https://opencellid.org), the world's largest Open Database of Cell Towers, we finally identified the exact location of the suitcase as detailed in the following screenshot :
 
-<img src="Images/5.png">
+<img src="Images/5.png" width="400" height="400">
 
 and finally, we got the flag! 
 
@@ -71,16 +71,16 @@ Securinets{49.016/2.559}
 
 >This image was attached to the task :
 
-<img src="Images/6.jpg">
+<img src="Images/6.jpg" width="400" height="400">
 
 The first reflex in this type of challenge is to reverse this image using a reverse image engine like [**Google image search**](https://images.google.com), for example.
 
-<img src="Images/7.png">
+<img src="Images/7.png" width="400" height="400">
 
 When we looked at the article, we found out that the attached image is the image of Zeus' horse designed by Atelier Blam
 Going to Atelier Blam's official website, we discovered that mr Aurelien Meyer is the founder of the studio, and we got the flag!
 
-<img src="Images/8.png">
+<img src="Images/8.png" width="400" height="400">
 
 and finally, we got the flag! 
 
@@ -97,12 +97,12 @@ Securinets{aurelien_meyer}
 
 >This image was attached to the task :
 
-<img src="Images/9.jpg">
+<img src="Images/9.jpg" width="400" height="400">
 
 ### Solution
 We used [**Google image search**](https://images.google.com) to reverse the attached image, and we got the name of the satellite, which was Kafasat. The result is detailed in the screenshot below :
 
-<img src="Images/10.png">
+<img src="Images/10.png" width="400" height="400">
 
 Having the name of the satellite we need now, an open source satellite database, we did some research and we found [**satnogs**](https://satnogs.org), a free software and open source hardware platform aimed to create a satellite ground station network.
 Searching satnogs, we found the satellite ID that we are looking for, as detailed in the screenshot below :
@@ -323,6 +323,7 @@ The image above shows the content in a file named Flag, which contained an unrea
 Now we've got the flag! 
 
 Securinets{Y0u_ar3_g00d_in_m3t4d4t4}
+
 
 
 
