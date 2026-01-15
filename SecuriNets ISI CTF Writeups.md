@@ -6,8 +6,11 @@ These are write-ups for some OSINT challenges from SecuriNets ISI CTF competitio
 >Note: The challenges are imaginative, they have no connection to reality and are written for educational purposes to introduce some OSINT skills.
 
 
-## Olympic
+## Olympic 1 
 ![Difficulty](https://img.shields.io/badge/Difficulty-easy-blue?style=for-the-badge)
+
+<img src="Images/35.png" width="400" height="400">
+
 ### Description 
 
 >The Paris 2024 Olympics are finally here; everyone is excited about this ultimate event! 
@@ -60,6 +63,9 @@ Securinets{49.016/2.559}
 
 ## Tr0jan
 ![Difficulty](https://img.shields.io/badge/Difficulty-easy-blue?style=for-the-badge)
+
+<img src="Images/36.png" width="400" height="400">
+
 ### Description 
 >Could you help me find the name of the studio founder who designed and created this artwork ?
 
@@ -88,6 +94,9 @@ Securinets{aurelien_meyer}
 
 ## 0RB1t 1
 ![Difficulty](https://img.shields.io/badge/Difficulty-easy-blue?style=for-the-badge)
+
+<img src="Images/37.png" width="400" height="400">
+
 ### Description 
 >While you were working as a security engineer in national law enforcement, an orbital device was launched to observe specific locations on the continent. Unfortunately, your chief reported that the device is not functioning as expected the images it captures are unclear. He suspects the device may have been hacked. Given the attached image, Your mission is to investigate the cause of the malfunction. As a first step, you need to retrieve the device's ID assigned by the operator.
 
@@ -113,8 +122,11 @@ and finally, we got the flag!
 
 Securinets{APQS-1800-5981-4551-3856}
 
-## 0RB1t 2
+## 0RB1t 3
 ![Difficulty](https://img.shields.io/badge/Difficulty-medium-blue?style=for-the-badge)
+
+<img src="Images/38.png" width="400" height="400">
+
 ### Description 
 > During your investigation, you obtained the latest satellite signals. You converted these signals into a specific format that made them more understandable, bringing you closer to identifying the hacker’s location. Can you determine the city where the attacker is?
 
@@ -157,6 +169,9 @@ Securinets{AMSTERDAM}
 
 ## T4Y4R4
 ![Difficulty](https://img.shields.io/badge/Difficulty-easy-blue?style=for-the-badge)
+
+<img src="Images/39.png" width="400" height="400">
+
 ### Description 
 > Being part of the technical team of an aerospace corporation, one of the clients reported that an airplane was making unusual sounds, particularly during flight N397DA. To identify the root cause, it was necessary to determine the exact delivery date of the aircraft to review its precise mechanical components. 
 
@@ -177,8 +192,11 @@ Now we've got the flag!
 
 Securinets{2000-08-24}
 
-## I 4M TH3 C4PT4IN N0W 
+## I 4M TH3 C4PT4IN N0W 1
 ![Difficulty](https://img.shields.io/badge/Difficulty-hard-blue?style=for-the-badge)
+
+<img src="Images/40.png" width="400" height="400">
+
 ### Description 
 >One Friday night, while monitoring the position of an Oil tanker that carried crude oil from Saudi Arabia to Senegal, you noticed a suspicious deviation from its usual itinerary. To learn more about this anomaly, you tried to contact the captain responsible for the ship's lead, but in vain. A few minutes later, the phone rang; fortunately, you managed to record the strange call.
 Attached to the task are a few files that you collected as evidence for your investigation.
@@ -270,6 +288,9 @@ Securinets{Os1nT_3Xp3RT4}
 
 ## Chi é
 ![Difficulty](https://img.shields.io/badge/Difficulty-easy-blue?style=for-the-badge)
+
+<img src="Images/41.png" width="400" height="400">
+
 ### Description 
 > Can you give me the Registry expiry date of baobab experience?
 
@@ -290,6 +311,8 @@ Running that command-line on our terminal, we got this information.
 
 ## Agent 
 ![Difficulty](https://img.shields.io/badge/Difficulty-medium-blue?style=for-the-badge)
+
+
 ### Description 
 >While working as a private detective, your mission is to investigate an unauthorized intrusion that leaked confidential documents. During your investigation, you determined the location of the hackers gang. You and your team decided to raid them, but unfortunately, you failed to catch them as you arrived a bit late and they managed to escape. 
 
@@ -323,6 +346,7 @@ The image above shows the content in a file named Flag, which contained an unrea
 Now we've got the flag! 
 
 Securinets{Y0u_ar3_g00d_in_m3t4d4t4}
+
 
 
 
